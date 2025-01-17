@@ -1,0 +1,116 @@
+//文字
+.Sans-TC {
+  font-family: "Noto Sans Tc", sans-serif;
+}
+.Serif-TC {
+  font-family: "Noto Serif Tc", Serif;
+}
+.indent-2 {
+  text-indent: 2rem;
+}
+//背景色
+.bg-1 {
+  background-color: #f5efe6;
+}
+.bg-2 {
+  background-color: #4f6f52;
+}
+.bg-3 {
+  background-color: #e8dfca;
+}
+.bg-4 {
+  background-color: #c9dabf;
+}
+.bg-5 {
+  background-color: #1a4d2e;
+}
+//顏色
+$nature-1: #1a4d2e;
+$nature-2: #88ab8e;
+$brown-1: #914f1e;
+$brown-2: #b99470;
+.white {
+  color: white;
+}
+.nature-1 {
+  color: $nature-1;
+}
+.nature-2 {
+  color: $nature-2;
+}
+
+.brown-1 {
+  color: $brown-1;
+}
+
+.brown-2 {
+  color: $brown-2;
+}
+// 圖片
+.objfit {
+  object-fit: cover;
+  object-position: center;
+}
+
+.card:hover {
+  box-shadow:
+    0 8px 17px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-link:hover {
+  color: $brown-1;
+}
+// nav
+.nav-link:hover {
+  color: $nature-2;
+}
+.cart-item {
+  span {
+    top: 5px;
+    left: 5px;
+  }
+}
+.dropdown-menu-custom {
+  transform: translate(-100%, 0);
+  width: 350px;
+  border-color: $nature-1;
+}
+.cart-a:hover {
+  background-color: $nature-2;
+}
+
+// list
+.a-active {
+  color: $nature-2;
+}
+.writing-list-group-item:hover {
+  color: $nature-2;
+  background-color: #e8dfca;
+}
+.writing-page-group-item:hover {
+  color: white;
+  background-color: #c9dabf;
+}
+
+//breadcrumb
+.custom-breadcrumb-item {
+  text-decoration: none;
+}
+
+.back-to-cart {
+  text-decoration: none;
+  &:hover {
+    color: #1a4d2e;
+  }
+}
+
+@media (max-width: 768px) {
+  .gutter-0 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .writing-list-group {
+    display: flex;
+    flex-direction: row;
+  }
+}
