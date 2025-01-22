@@ -3,6 +3,7 @@
     <div class="container-fluid">
       <a class="navbar-brand Serif-TC fw-bolder nature-1 fs-3" href="#">Tea 後台管理</a>
       <button
+        ref="navbarBtn"
         class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
@@ -64,6 +65,13 @@ export default {
           this.$router.push('/login');
         }
       });
+    },
+  },
+  watch: {
+    $route() {
+      if (document.body.offsetWidth < 992) {
+        this.$refs.navbarBtn.click();
+      }
     },
   },
 };

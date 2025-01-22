@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row mt-4 mb-4">
       <!-- list -->
-      <div class="col-md-3">
+      <div class="col-lg-3">
         <ul class="list-group writing-list-group bg-3 rounded-0">
           <li class="list-group-item bg-3 rounded-0">
             <a
@@ -31,7 +31,7 @@
         </ul>
       </div>
       <!-- products -->
-      <div class="col-md-9">
+      <div class="col-lg-9">
         <section class="my-1">
           <h3 v-if="selectedCategory === ''" class="fs-4 Serif-TC fw-bolder nature-1">
             茶藝用品 / 全部

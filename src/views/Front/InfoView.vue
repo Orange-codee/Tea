@@ -2,7 +2,7 @@
   <div class="container mt-4 mb-4 px-5">
     <div class="row">
       <!-- eslint-disable max-len -->
-      <div class="col-md-3 col-12 gutter-0">
+      <div class="col-lg-3 col-12 gutter-0">
         <ul class="list-group writing-list-group bg-3 rounded-0">
           <li class="list-group-item bg-3 rounded-0 border-0">
             <a
@@ -25,7 +25,7 @@
         </ul>
       </div>
 
-      <div class="col-md-9 col-12 bg-1">
+      <div class="col-lg-9 col-12 bg-1">
         <article v-if="listItem === '茶歷史'" class="py-3 px-5">
           <h3 class="Serif-TC fw-bolder nature-1 mb-3">茶歷史</h3>
           <p class="indent-2">
