@@ -27,6 +27,9 @@ Browse products.
 Cart (購物車) - 查看購物車內容。
 Check cart.
 
+Footer (頁面底端) - 商家聯絡資訊、登入後台。
+Contact information and admin login.
+
 ## Project setup
 
 ```
